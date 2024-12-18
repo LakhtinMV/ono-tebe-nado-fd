@@ -1,1 +1,223 @@
 /* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  padding: 92px 50px;
+  align-items: center;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header__links-list {
+  display: flex;
+  list-style-type: circle;
+  column-gap: 32px;
+  line-height: 21.13px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.header__logo {
+  display: block;
+  background-image: url(../images/logo-black.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 148px;
+  height: 105px;
+}
+
+.address {
+  all: unset;
+  justify-self: end;
+  width: 240px;
+  height: 98px;
+  font-size: 18px;
+  line-height: 24.3px;
+}
+
+.pixel-perfect-image {
+  position: fixed;
+  top: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.5;
+  filter: sepia(0.6);
+}
+
+.cover {
+  width: 100%;
+  height: 757px;
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.title {
+  text-transform: uppercase;
+
+}
+
+.cover-title {
+  width: 1000px;
+  height: 385px;
+}
+
+.words {
+  font-size: 100px;
+}
+
+.description {
+
+}
+
+.subline {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.button {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.lots {
+  margin: 180px auto 0;
+  width: 1052px;
+  height: 723px;
+}
+
+.lots-sheet {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lots-list {
+  
+}
+
+.lot {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 48px 40px;
+  width: 334px;
+  height: 596px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-lot-1 {
+  background-image: url("../images/card-lot-01.jpg");
+}
+
+.card-lot-2 {
+  background-image: url("../images/card-lot-02.jpg");
+}
+
+.card-lot-3 {
+  background-image: url("../images/card-lot-03.jpg");
+}
+
+.lots-title {
+ 
+}
+
+.lots-sheet {
+ color: white;
+}
+
+.lot-title {
+  width: 254px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+.lot-description {
+  font-size: 20px;
+}
+
+.more {
+  text-decoration: underline;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 120px auto 0;
+  width: 1052px;
+  height: 595px;
+}
+
+.logo-column {
+  display: flex;
+  background-color: black;
+  margin-top: 30px;
+  margin-left: 42px;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+}
+
+.about-logo {
+  margin: auto;
+  justify-content: center;
+  width: 148px;
+  height: 114px;
+}
+
+.about-title {
+  font-size: 40px;
+  margin-bottom: 76px;
+}
+
+.about-column {
+  align-self: self-end;
+  width: 693px;
+  height: 449px;
+}
+
+.about-paragraf {
+  margin-top: 24px;
+  font-size: 20px;
+}
+
+.footer {
+  margin-top: 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: 180px;
+}
+
+.footer-nav-sheet {
+  list-style-type: none;
+}
+
+.socials {
+  display: inline-block;
+  height: 48px;
+  width: 240px;
+}
+
+.socials-logo {
+  
+}
+
+.socials-sheet {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
