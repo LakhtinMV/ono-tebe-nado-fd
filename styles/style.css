@@ -137,6 +137,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  color: white;
 }
 
 .lot-link {
@@ -166,11 +167,6 @@
 
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
-}
-
-.lots-sheet {
- color: white;
- 
 }
 
 .lot-title {
