@@ -18,18 +18,26 @@
   font-weight: 400;
 }
 
+
+
 .header__link_active {
   text-decoration: none;
+}
+
+.header__link {
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 .header__links-list-item_no-bullit {
   list-style-type: none;
 }
 
+.header__logo-link {
+  display: flex;
+}
+
 .header__logo {
-  background-image: url(../images/logo-black.svg);
-  background-repeat: no-repeat;
-  background-position: center;
   width: 148px;
   height: 105px;
 }
@@ -41,6 +49,10 @@
   height: 98px;
   font-size: 18px;
   line-height: 24.3px;
+  font-family: Raleway;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
 }
 
 /* ------ MAIN ------ */
@@ -133,7 +145,7 @@
 }
 
 .lots-sheet {
-  margin-top: 27px;
+  margin-top: 26px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -174,6 +186,8 @@
   text-transform: uppercase;
   text-decoration: underline;
   font-size: 22px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 .lot-description {
@@ -183,11 +197,15 @@
 }
 
 .more {
+  margin-top: 31px;
+  margin-left: 40px;
   font-size: 20px;
   font-weight: 400;
   line-height: 23.48px;
-  margin-top: 30px;
-  margin-left: 40px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
 }
 
 /*  --------- about section ----------- */
@@ -196,7 +214,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   justify-content: space-between;
-  margin: 155px auto 90px;
+  margin: 154px auto 90px;
   width: 1052px;
 }
 
@@ -213,7 +231,7 @@
 
 .about-column {
   padding-left: 25px;
-  padding-top: 100px;
+  padding-top: 101px;
  }
 
 .about-logo {
@@ -247,7 +265,7 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 180px;
+  margin-top: 181px;
   height: 100%;
 }
 
@@ -264,13 +282,12 @@
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
 }
 
 .socials {
   justify-self: center;
   position: relative;
-  left: 12px;
+  left: 13px;
   width: 240px;
   height: 48px;
 }
