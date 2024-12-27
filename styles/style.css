@@ -112,8 +112,6 @@
  justify-content: space-between;
  margin: 106px 0 30px 30px;
  width: 1000px;
- height: 51px;
-
 }
 
 .cover__description-text {
@@ -122,9 +120,6 @@
   font-size: 22px;
   line-height: 28px;
   word-spacing: 18px;
-
-
-
 }
 
 .bet-button {
@@ -219,7 +214,6 @@
   text-align: left;
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
-
 }
 
 /*  --------- about section ----------- */
@@ -258,6 +252,9 @@
 }
 
 .about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   margin-top: 100px;
   padding-right: 3px;
   font-weight: 400;
@@ -266,11 +263,6 @@
   text-align: left;
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
-
-}
-
-.about__text-space {
-  margin-bottom: 24px;
 }
 
 /* -----footer----- */
